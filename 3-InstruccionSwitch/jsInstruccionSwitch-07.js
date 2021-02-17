@@ -1,6 +1,29 @@
 function mostrar()
 {
-	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
+	var destinoIngresado 
+	destinoIngresado = document.getElementById("txtIdDestino").value;
 
-}//FIN DE LA FUNCIÓN
+	switch (destinoIngresado) 
+	{
+		case "Bariloche":
+			
+			alert ("Punto cardinal Oeste.")
+			break;
+	
+		case "Cataratas":
+
+			alert ("Punto cardinal Norte.")
+			break;
+
+		case "Mar del plata":
+
+			alert ("Punto cardinal Este.")
+			break;
+
+		case "Ushuaia":
+			
+			alert ("Punto cardinal Sur.")
+			break;
+
+	}
+}
